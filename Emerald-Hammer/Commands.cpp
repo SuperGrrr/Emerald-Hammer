@@ -1,7 +1,7 @@
 #pragma once
-#include "Emerald-Hammer.h"
+#include "Emerald_Hammer.h"
 
-namespace Emerald-Hammer{
+namespace Emerald_Hammer{
 
 	int initialize_Server() {
 		//  TODO

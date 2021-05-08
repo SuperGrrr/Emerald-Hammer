@@ -4,6 +4,6 @@
 cmake_minimum_required (VERSION 3.8)
 
 # Add source to this project's executable.
-add_executable (MinecraftServerTools "Emerald-Hammer.cpp" "Emerald-Hammer.h" "Commands.cpp")
+add_executable (MinecraftServerTools "Emerald_Hammer.cpp" "Emerald_Hammer.h" "Commands.cpp")
 
 # TODO: Add tests and install targets if needed.

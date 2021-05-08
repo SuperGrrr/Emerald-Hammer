@@ -22,7 +22,7 @@
 //	may need to add boost lib for interprocess communication. unless stdlib workaround can be achieved.
 // TODO: Reference additional headers your program requires here.
 using namespace std;
-namespace Emerald-Hammer{
+namespace Emerald_Hammer{
 
 	int initialize_Server();
 
