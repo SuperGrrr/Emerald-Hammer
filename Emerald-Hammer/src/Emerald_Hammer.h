@@ -4,9 +4,11 @@
 #pragma once
 //	System
 #include <iostream>
+#include <fstream>
 #include <csignal>
 #include <system_error>
 //  Collections
+#include <map>
 #include <vector>
 #include <array>
 #include <list>
@@ -23,6 +25,19 @@
 // TODO: Reference additional headers your program requires here.
 using namespace std;
 namespace Emerald_Hammer{
+
+	class Config {
+	public:
+		Config();
+		string fetch_setting(string name);
+		void read_config(string& path);
+	};
+
+	struct keyval { string key, val; };
+
+	int server_pid;
+
+	string config_path = "./config/settings.config";
 
 	int initialize_Server();
 
